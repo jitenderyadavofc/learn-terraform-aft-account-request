@@ -4,14 +4,14 @@ module "sandbox" {
   control_tower_parameters = {
     AccountEmail              = "jitender+tools@gmail.com"
     AccountName               = "tools account"
-    ManagedOrganizationalUnit = "Learn AFT"
+    ManagedOrganizationalUnit = "Infrastructure"
     SSOUserEmail              = "jitender+tools@gmail.com"
     SSOUserFirstName          = "tools"
     SSOUserLastName           = "account"
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT"
+    "Learn Tutorial" = "latest"
   }
 
   change_management_parameters = {
