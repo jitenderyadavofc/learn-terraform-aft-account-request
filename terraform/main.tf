@@ -1,12 +1,12 @@
-module "sandbox" {
+module "tools-01" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "jitender+tools@gmail.com"
-    AccountName               = "tools account"
-    ManagedOrganizationalUnit = "Infrastructure"
-    SSOUserEmail              = "jitender+tools@gmail.com"
-    SSOUserFirstName          = "tools"
+    AccountEmail              = "jitender+tools1@gmail.com"
+    AccountName               = "tools1 account"
+    ManagedOrganizationalUnit = "workload"
+    SSOUserEmail              = "jitender+tools1@gmail.com"
+    SSOUserFirstName          = "tools1"
     SSOUserLastName           = "account"
   }
 
