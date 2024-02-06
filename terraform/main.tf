@@ -3,7 +3,7 @@ module "toolsbirla" {
 
   control_tower_parameters = {
     AccountEmail              = "jitender+tools4@birlasoft.com"
-    AccountName               = "tools4 account"
+    AccountName               = "tools5 account"
     ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "jitender+tools4@birlasoft.com"
     SSOUserFirstName          = "tools4"
