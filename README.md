@@ -11,6 +11,8 @@ table item with your account specifications.
 - Commit the changes to trigger the pipeline
 - Wait about 15-20 min for the email notification shown as below & activate the account
  <img width="421" alt="image" src="https://github.com/jitenderyadavofc/learn-terraform-aft-account-request/assets/157213132/8e696615-7105-44d5-b768-5031698a7667">
+
+ 
   
  
 
