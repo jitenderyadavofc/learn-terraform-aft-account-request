@@ -1,4 +1,4 @@
-# Terraform - Use Control Tower Account Factory for Terraform
+# Lennar Control Tower Account Factory for Terraform - Account Request Module
 
 This repository contains boilerplate configuration for defining account
 requests to use with the Account Factory for Terraform module. The AFT pipeline
