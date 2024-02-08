@@ -2,10 +2,10 @@ module "mod-Account" {
   source = "../aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "jitender+tools6@birlasoft.com"
-    AccountName               = "Birla Test"
+    AccountEmail              = "jitender+tools7@birlasoft.com"
+    AccountName               = "Lennar Test"
     ManagedOrganizationalUnit = "Sandbox"
-    SSOUserEmail              = "jitender+tools6@birlasoft.com"
+    SSOUserEmail              = "jitender+tools7@birlasoft.com"
     SSOUserFirstName          = "Jitender"
     SSOUserLastName           = "Account"
   }
