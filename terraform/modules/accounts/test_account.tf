@@ -3,7 +3,7 @@ module "mod-Account" {
 
   control_tower_parameters = {
     AccountEmail              = "jitender+tools8@birlasoft.com"
-    AccountName               = "Lennar Test"
+    AccountName               = "Birla Test"
     ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "jitender+tools8@birlasoft.com"
     SSOUserFirstName          = "Jitender"
@@ -11,8 +11,8 @@ module "mod-Account" {
   }
 
   account_tags = {
-    "Application Name" = "Test Application 8"
-    "Application ID" = "tst"
+    "Application Name" = "Test Application01"
+    "Application ID" = "tst8"
     "Cost Center" = "1000"
     
   }
