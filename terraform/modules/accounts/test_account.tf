@@ -2,17 +2,17 @@ module "mod-Account" {
   source = "../aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "jitender+tools7@birlasoft.com"
+    AccountEmail              = "jitender+tools8@birlasoft.com"
     AccountName               = "Lennar Test"
     ManagedOrganizationalUnit = "Sandbox"
-    SSOUserEmail              = "jitender+tools7@birlasoft.com"
+    SSOUserEmail              = "jitender+tools8@birlasoft.com"
     SSOUserFirstName          = "Jitender"
     SSOUserLastName           = "Account"
   }
 
   account_tags = {
-    "Application Name" = "Test Application01"
-    "Application ID" = "tst1"
+    "Application Name" = "Test Application 8"
+    "Application ID" = "tst"
     "Cost Center" = "1000"
     
   }
@@ -23,6 +23,8 @@ module "mod-Account" {
   }
 
   custom_fields = {
+    app_code = "tst"
+    budget = "200"
     vpc_count = "1"
   }
 
